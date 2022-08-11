@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-dotnet build
+# dotnet build
 docker-compose build
 docker-compose up
