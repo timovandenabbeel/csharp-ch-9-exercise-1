@@ -2,5 +2,5 @@
 
 set -euo pipefail
 
-docker build -t WebApp .
-docker run -t -p 80:80 --network mssql_default --name SportStoreWebApp WebApp
+docker build -t webapp .
+docker run -t -p 80:80 --network mssql_default --name SportStoreWebApp webapp
