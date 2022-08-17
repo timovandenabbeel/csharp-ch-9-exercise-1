@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-dotnet dev-certs https -ep /etc/ssl/sportstore/ -p Password
+dotnet dev-certs https -ep /etc/ssl/sportstore/sportstore.pfx -p Password
 
 docker build -t webapp .
 
