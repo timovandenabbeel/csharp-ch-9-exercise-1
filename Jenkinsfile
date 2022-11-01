@@ -1,5 +1,5 @@
 node {
     stage('Build') {
-        sh 'bash ./build.sh'
+        sh 'bash $WORKSPACE/build.sh'
     }
 }
