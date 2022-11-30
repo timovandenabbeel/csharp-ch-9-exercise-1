@@ -1,4 +1,4 @@
-# SportStore with database test branch
+# SportStore with database test branch 2
 
 ## Objectives
 
